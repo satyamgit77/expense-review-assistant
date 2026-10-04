@@ -1,0 +1,42 @@
+{
+  "currency": "INR",
+  "submissionWindowDays": 30,
+  "allowFutureDates": false,
+  "receipt": {
+    "requiredAbove": 500,
+    "sectionId": "1.2"
+  },
+  "categories": {
+    "Travel": {
+      "limit": 5000,
+      "limitSectionId": "2.1",
+      "detailsSectionId": "2.2",
+      "detailsRequired": true
+    },
+    "Meals": {
+      "limit": 1500,
+      "limitSectionId": "3.2",
+      "detailsSectionId": "3.1",
+      "detailsRequired": false
+    },
+    "Accommodation": {
+      "limit": 6000,
+      "limitSectionId": "4.1",
+      "detailsSectionId": "4.1",
+      "detailsRequired": false
+    },
+    "Office Supplies": {
+      "limit": 3000,
+      "limitSectionId": "5.1",
+      "detailsSectionId": "5.1",
+      "detailsRequired": false
+    },
+    "Client Entertainment": {
+      "limit": 4000,
+      "limitSectionId": "6.1",
+      "detailsSectionId": "6.2",
+      "detailsRequired": true
+    }
+  },
+  "duplicateCheckFields": ["claimant", "date", "category", "amount"]
+}

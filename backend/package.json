@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed:users": "node scripts/seedUsers.js",
+    "seed:policy": "node scripts/seedPolicy.js",
+    "test": "node --test",
+    "test:ai": "node scripts/testAI.js",
+    "test:classify": "node scripts/testClassify.js",
+    "test:retrieval": "node scripts/testRetrieval.js",
+    "test:explain": "node scripts/testExplain.js",
+    "test:injection": "node scripts/testInjection.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "@google/genai": "^2.27.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
