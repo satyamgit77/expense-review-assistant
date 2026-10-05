@@ -11,11 +11,7 @@ An employee submits a claim. The backend runs deterministic checks (required fie
 | | |
 |---|---|
 | App | https://expense-review-assistant.onrender.com/ |
-<<<<<<< HEAD
 | Source code |     https://github.com/satyamgit77/expense-review-assistant |
-=======
-| Source code | https://github.com/satyamgit77/expense-review-assistant |
->>>>>>> 0bfd1e3e109587725051629d71aa3b6899414d95
 | Test accounts | Provided in the submission remarks (no credentials are stored in this repository) |
 
 The app is hosted on Render's free plan. After about 15 minutes without traffic the service sleeps, and the first request afterwards can take 30 to 60 seconds. Please open the link once and wait before testing.
