@@ -11,7 +11,11 @@ An employee submits a claim. The backend runs deterministic checks (required fie
 | | |
 |---|---|
 | App | https://expense-review-assistant.onrender.com/ |
+<<<<<<< HEAD
 | Source code |     https://github.com/satyamgit77/expense-review-assistant |
+=======
+| Source code | https://github.com/satyamgit77/expense-review-assistant |
+>>>>>>> 0bfd1e3e109587725051629d71aa3b6899414d95
 | Test accounts | Provided in the submission remarks (no credentials are stored in this repository) |
 
 The app is hosted on Render's free plan. After about 15 minutes without traffic the service sleeps, and the first request afterwards can take 30 to 60 seconds. Please open the link once and wait before testing.
@@ -390,4 +394,8 @@ How AI tools were used to build this project, including mistakes and how the out
 | `npm run seed:users` refuses to run | You are seeding a remote database. Set `SEED_REVIEWER_PASSWORD` to a new password of at least 8 characters |
 | Deployed health check shows `"db":"disconnected"` | Check `MONGODB_URI` (password, database name) and that Atlas allows `0.0.0.0/0` |
 | Deployed app is slow on the first request | Free plan wake-up. Wait up to a minute and try again |
+<<<<<<< HEAD
 | Render build fails | Check the build log. Node 20 or newer is required (`NODE_VERSION=22` is set in `render.yaml`) |
+=======
+| Render build fails | Check the build log. Node 20 or newer is required (`NODE_VERSION=22` is set in `render.yaml`) |
+>>>>>>> 0bfd1e3e109587725051629d71aa3b6899414d95
