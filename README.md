@@ -108,7 +108,7 @@ Open `http://localhost:5173`. Vite proxies `/api` to the backend on port 5000.
 
 | Role | Email | Password |
 |---|---|---|
-| Reviewer | `reviewer@test.com` | `reviewer123` (development only, change it before any real use) |
+| Reviewer | `reviewer12i@test.com` | `reviewer@123i` (development only, change it before any real use) |
 | Employee | Use **Create account** on the login page | min 6 characters |
 
 Anyone who registers becomes an `employee`. Reviewers can only be created with the seed script.
