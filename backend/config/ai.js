@@ -21,7 +21,7 @@ const generateWithGemini = async ({ system, prompt, json }) => {
     contents: prompt,
     config: {
       systemInstruction: system,
-      temperature: 0,
+      temperature: 0.3,
       ...(json ? { responseMimeType: 'application/json' } : {}),
     },
   });
