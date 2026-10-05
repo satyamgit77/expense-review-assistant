@@ -1,10 +1,10 @@
 import { Link, NavLink, Outlet } from "react-router-dom";
+import Logo from './Logo';
 import {
   LayoutDashboard,
   ListChecks,
   LogOut,
   PlusCircle,
-  ReceiptText,
 } from "lucide-react";
 import { useAuth } from "../context/useAuth";
 
@@ -27,9 +27,7 @@ export default function Layout() {
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-3">
           <div className="flex items-center gap-6">
             <Link to="/" className="flex items-center gap-2 font-semibold">
-              <span className="rounded-lg bg-indigo-600 p-1.5 text-white">
-                <ReceiptText size={18} />
-              </span>
+              <Logo size={32} />
               <span className="hidden sm:inline">Expense Review</span>
             </Link>
 

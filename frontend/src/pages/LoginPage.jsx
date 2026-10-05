@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, Navigate, useSearchParams } from 'react-router-dom';
+import Logo from '../components/Logo';
 import {
   AlertCircle,
   ArrowLeft,
@@ -7,7 +8,6 @@ import {
   Lock,
   LogIn,
   Mail,
-  ReceiptText,
   User as UserIcon,
   UserPlus,
 } from 'lucide-react';
@@ -68,9 +68,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center p-6">
       <div className="w-full max-w-sm">
         <div className="mb-6 flex flex-col items-center text-center">
-          <div className="rounded-2xl bg-indigo-600 p-3 text-white shadow-sm">
-            <ReceiptText size={28} />
-          </div>
+          <Logo size={56} className="rounded-2xl shadow-sm" />
           <h1 className="mt-4 text-xl font-semibold">Expense Review Assistant</h1>
           <p className="mt-1 text-sm text-slate-500">
             {isLogin ? 'Sign in to continue' : 'Create an employee account'}

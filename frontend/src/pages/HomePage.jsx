@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Logo from '../components/Logo';
 import {
   ArrowRight,
   BookOpen,
@@ -6,7 +7,6 @@ import {
   LayoutDashboard,
   ListChecks,
   LogIn,
-  ReceiptText,
   Search,
   ShieldCheck,
   Sparkles,
@@ -97,9 +97,9 @@ export default function HomePage() {
     <div className="min-h-screen">
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3">
-          <div className="flex items-center gap-2 font-semibold">
-            <span className="rounded-lg bg-indigo-600 p-1.5 text-white">
-              <ReceiptText size={18} />
+          <div className="flex items-center gap-1 font-semibold">
+            <span className="rounded-lg p-1.5 text-white">
+              <Logo size={32} />
             </span>
             Expense Review
           </div>
