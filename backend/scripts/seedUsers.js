@@ -6,9 +6,9 @@ const { ROLES } = require('../config/constants');
 
 const users = [
   {
-    name: process.env.SEED_REVIEWER_NAME || 'Reviewer One',
-    email: process.env.SEED_REVIEWER_EMAIL || 'reviewer12i@test.com',
-    password: process.env.SEED_REVIEWER_PASSWORD || 'reviewer@123i',
+    name: process.env.SEED_REVIEWER_NAME,
+    email: process.env.SEED_REVIEWER_EMAIL,
+    password: process.env.SEED_REVIEWER_PASSWORD,
     role: ROLES.REVIEWER,
   },
 ];
